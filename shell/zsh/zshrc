@@ -1,0 +1,27 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+
+setopt appendhistory
+setopt autocd
+setopt extendedglob # I want extended globbing
+setopt nomatch
+
+
+unsetopt beep # No beeping for me
+
+bindkey -v # ViM keybindings.
+
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/teodor/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
+
+# Source various files
+# Libaries
+source $HOME/.dotfiles/shell/zsh/libs/antigen/antigen.zsh
