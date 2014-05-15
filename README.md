@@ -18,3 +18,13 @@ You will need:
 - Curl
 - ViM
 - Python
+
+
+## Places where you need to change stuff
+### Xresources
+The option
+
+	URxvt.perl-lib:
+
+Is username specific
+

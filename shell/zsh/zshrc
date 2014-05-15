@@ -25,3 +25,14 @@ compinit
 # Source various files
 # Libaries
 source $HOME/.dotfiles/shell/zsh/libs/antigen/antigen.zsh
+
+
+# Set path
+export PATH=$HOME/bin:$PATH
+
+
+# Source private files
+source $HOME/.dotfiles/private/variables.zsh
+
+
+alias rm="rm -i"
